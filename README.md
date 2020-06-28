@@ -2,7 +2,7 @@
 This is the project for the [Udacity C++ Program https](www://Nanodegree.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
 
 ## Results for this project
-<img src="data/Results.gif"/>
+<img src="data/Result.gif"/>
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
