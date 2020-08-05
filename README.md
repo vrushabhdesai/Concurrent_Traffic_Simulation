@@ -1,5 +1,5 @@
 # Concurrent Traffic Simulation
-This is the project for the [Udacity C++ Program https](www://Nanodegree.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
+This is the project for the [Udacity C++ Program](www://Nanodegree.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
 
 ## Results for this project
 <img src="data/Result.gif"/>
