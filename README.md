@@ -1,7 +1,8 @@
 # Concurrent Traffic Simulation
-This is the project for the [Udacity C++ Program](www://Nanodegree.udacity.com/course/c-plus-plus-nanodegree--nd213): Concurrency. 
 
-## Results for this project
+A multithreaded traffic simulator using a real urban map. Run each vehicle on a septate thread, and manage intersections to facilitate traffic flow and avoid collisions. 
+
+Refer the following:
 <img src="data/Result.gif"/>
 
 ## Dependencies for Running Locally
@@ -20,7 +21,7 @@ This is the project for the [Udacity C++ Program](www://Nanodegree.udacity.com/c
 
 ## Project Program Schematic
 
-The structure and logic of the program is expliend in the following image
+The structure and logic of the program is explained in the following image
 
 <img src="data/flow.jpg"/>
 
