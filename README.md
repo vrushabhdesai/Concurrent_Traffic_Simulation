@@ -3,7 +3,7 @@
 A multithreaded traffic simulator using a real urban map. Run each vehicle on a septate thread, and manage intersections to facilitate traffic flow and avoid collisions. 
 
 Refer the following:
-<img src="data/Result.gif"/>
+<img src="data/Idel_Results.gif"/>
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
