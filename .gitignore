@@ -1,2 +1,10 @@
-build/*
-.vscode/*
+# Build output
+build/
+
+# Editor / IDE
+.vscode/
+
+# Compiled objects & binaries
+*.o
+*.out
+traffic_simulation

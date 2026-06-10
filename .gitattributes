@@ -1,0 +1,15 @@
+# Normalize line endings: auto-detect text and convert to LF on commit
+* text=auto eol=lf
+
+# C++ sources and build scripts
+*.cpp  text
+*.h    text
+CMakeLists.txt text
+*.cmake text
+*.md   text
+
+# Binary assets (no EOL conversion, no textual diff)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
