@@ -27,6 +27,23 @@ The structure and logic of the program is explained in the following image
 <img src="data/flow.jpg"/>
 
 
+## Project Structure
+
+```
+.
+├── CMakeLists.txt                    # CMake build configuration
+├── data/                             # Map images (Paris/NYC) and result GIFs used by the README
+└── src/
+    ├── TrafficSimulator-Final.cpp    # Entry point: builds the Paris/NYC scenes and starts the simulation
+    ├── TrafficObject.{h,cpp}         # Base class for every object on the map (unique IDs, position)
+    ├── Intersection.{h,cpp}          # Intersection logic + thread-safe WaitingVehicles queue
+    ├── Street.{h,cpp}                # A street connecting two intersections
+    ├── Vehicle.{h,cpp}               # A vehicle that drives between intersections on its own thread
+    ├── TrafficLight.{h,cpp}          # Traffic light + templated thread-safe MessageQueue for phase changes
+    └── Graphics.{h,cpp}              # Loads the map image and renders the simulation with OpenCV
+```
+
+
 ## Basic Build Instructions
 
 1. Clone the project repository: `git clone https://github.com/vrushabhdesai/Concurrent_Traffic_Simulation.git`
